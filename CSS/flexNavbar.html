@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar using flex</title>
+    <style>
+*{
+    box-sizing: border-box;
+}
+        .navbar{
+            background-color: blue;
+            height: 50px;
+            width: 100%;
+         display: flex;
+        
+        }
+        .banner{
+            width: 25%;
+            height: 50px;
+            color: chartreuse;
+            font-size: 20px;
+            text-align: left;
+            background-color: cornflowerblue;
+            padding-top: 10px;
+            
+        }
+        a{
+            text-decoration: darkgoldenrod;
+            color:black;
+           
+        
+
+        }
+        a:hover{
+            font-weight: bold;
+
+        }
+        .menubar{
+            width: 75%;
+            height: 50px;
+            background-color: powderblue;
+        }
+        ul{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        li{
+            list-style: none;
+             }
+             .body-content{
+                 display: flex;
+             }
+            .sidebar{
+                height: 500px;
+                width: 50%;
+                background-color: coral;
+            }
+
+            .main-content{
+                height: 500px;
+                width: 50%;
+                background-color: crimson;
+            }
+
+    </style>
+</head>
+<body>
+   <div class="navbar">
+   
+   
+   <div class="banner"><a href="">MY PAGE</a></div>
+    <div class="menubar">
+   <ul>
+       <li><a href="">HOME</a</li>
+       <LI><a href="">ABOUT</a></LI>
+       <LI><a href="">Blog</a></LI>
+       <li><a href="">ADDRESS</a></li>
+
+
+   </ul>
+   
+   </div>
+</div>
+<div class="body-content">
+<div class="main-content">main content</div>
+<div class="sidebar">sidebar</div>
+</div>
+</body>
+</html>
